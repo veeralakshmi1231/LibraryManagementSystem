@@ -9,3 +9,16 @@ print("-------------------------")
 print("Book Name:", book_name)
 print("Author:", author)
 print("Price: Rs.", price)
+
+
+# Book Issue Functionality
+
+def issue_book():
+    print("\nBOOK ISSUE DETAILS")
+    student_name = input("Enter Student Name: ")
+    print("Book Issued Successfully!")
+    print("Student Name:", student_name)
+    print("Issued Book:", book_name)
+
+
+issue_book()
