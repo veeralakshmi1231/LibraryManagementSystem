@@ -8,3 +8,4 @@ print("----- Library Book Details -----")
 print("Book Name:", book_name)
 print("Author:", author)
 print("Price: Rs.", price)
+# Updated directly on GitHub
