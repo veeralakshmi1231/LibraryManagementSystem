@@ -22,3 +22,15 @@ def issue_book():
 
 
 issue_book()
+# Book Issue Functionality
+
+def issue_book():
+    student_name = input("Enter Student Name: ")
+    book_name = input("Enter Book Name: ")
+
+    print("\n----- Book Issue Details -----")
+    print("Student Name:", student_name)
+    print("Book Name:", book_name)
+    print("Book issued successfully!")
+
+issue_book()
